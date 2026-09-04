@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://zimmermanspv.com/'
 locale = 'en-us'
 title = 'My New Hugo Project'
+<<<<<<< HEAD
 theme = 'ananke' 
+=======
+theme = 'ananke'
+>>>>>>> d4674fb1754003b01a280758605af2eb47cc30ab
