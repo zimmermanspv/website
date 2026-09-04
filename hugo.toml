@@ -2,4 +2,3 @@ baseURL = 'https://zimmermanspv.com/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = 'ananke'
- 
