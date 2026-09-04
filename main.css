@@ -7,10 +7,19 @@ body {
 }
 
 header {
-    justify-self: center;
     margin: 0 auto;
+    justify-self: center;
 }
 
 header img {
-    height:100vh;
+    height:85vh;
+    padding:60px;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+header img:hover {
+    height:85vh;
+    padding:60px;
+    transform: scale(1.05);
 }
