@@ -1,0 +1,16 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    justify-self: center;
+    margin: 0 auto;
+}
+
+header img {
+    height:100vh;
+}
