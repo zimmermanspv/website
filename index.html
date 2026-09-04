@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Template Gallery</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+        .gallery-item {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .gallery-info {
+            padding: 15px;
+        }
+        .gallery-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+        }
+        .gallery-info p {
+            margin: 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Template Gallery</h1>
+
+    <div class="gallery-grid">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+            <img src="https://placeholder.com" alt="Template Preview">
+            <div class="gallery-info">
+                <h3>Minimalist Portfolio</h3>
+                <p>A clean, single-page layout ideal for photography.</p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+            <img src="https://placeholder.com" alt="Template Preview">
+            <div class="gallery-info">
+                <h3>E-Commerce Grid</h3>
+                <p>Modern card design optimized for digital products.</p>
+            </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+            <img src="https://placeholder.com" alt="Template Preview">
+            <div class="gallery-info">
+                <h3>Creative Blog Layout</h3>
+                <p>Masonry style grid for imagery and text summaries.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
