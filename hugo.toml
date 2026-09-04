@@ -1,4 +1,4 @@
 baseURL = 'https://zimmermanspv.com/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Zimmerman&#39;s'
 theme = 'ananke'
